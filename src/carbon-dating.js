@@ -22,7 +22,7 @@ function dateSample(sampleActivity) {
     return false;
   }
 
-  if (Number(sampleActivity) > 15 || Number(sampleActivity) <= 0 ) {
+  if (Number(sampleActivity) > MODERN_ACTIVITY || Number(sampleActivity) <= 0 ) {
     return false;
   }
   const k = 0.693 / HALF_LIFE_PERIOD;
